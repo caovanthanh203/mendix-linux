@@ -41,6 +41,15 @@ Link to download: https://marketplace.mendix.com/link/studiopro/
 3. Change VM network setting from NAT to Bridge
 ![](https://i.ibb.co/x6VZdhy/Screenshot-2021-11-15-T144053-913.jpg)
 4. Install the Mendix Studio Pro inside VM
-5. After install you can login, sync, and start Mendix Studio Pro in you VM as a standalone computer
+To copy you Mendix Studio Pro installer you can copy-paste
+Or serve file from your PC via HTTP, and download it on VM using Microsoft Edge in VM
+Access PC from VM is [local_network_ip]:port on browser
+
+To serve file, you can use node serve: https://www.npmjs.com/package/serve
+````
+serve [directory_contain_installer]
+````
+
+6. After install you can login, sync, and start Mendix Studio Pro in you VM as a standalone computer
 The IP will same your PC IP in local network
 ![](https://i.ibb.co/9WYFsX5/Screenshot-2021-11-15-T144515-355.jpg)
